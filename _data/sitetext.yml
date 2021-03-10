@@ -1,23 +1,23 @@
 header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
-    buttonlink: "#services" # "#{section}" or "URL/page link"
+    title: Welcome to my Website!
+    text: Lets Build Something Together
+    button: Portfolio
+    buttonlink: "#portfolio" # "#{section}" or "URL/page link"
 
-# services:
-#     title: "Services"
-#     text: "Lorem ipsum"
-#     section: services
-#     list:
-#       - title: "E-Commerce"
-#         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-#         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-#       - title: "Responsive Design"
-#         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-#         icon: fas fa-laptop
-#       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-#         desc: "Your description here, full **Markdown** support"
-#         icon: fab fa-markdown
+services:
+    title: "Skills"
+    text:
+    section: services
+    list:
+      - title: "Design"
+        desc: "Creating Tangible Solutions for Abstract Problems"
+        icon: fas fa-drafting-compass #find more at https://fontawesome.com/icons
+      - title: "Fabrication"
+        desc: "Building Products from the Ground up"
+        icon: fas fa-tools
+      - title: "Functionality Testing"
+        desc: "Taking the Necessary Steps to Keep Pushing the Product Forward"
+        icon: fas fa-chart-line
 
 portfolio:
     title: "Portfolio"
@@ -67,55 +67,55 @@ clients:
     horizontal-scrolling: "" #"yes/no"
     list:
       - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
+        # url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/envato.jpg
       - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
+        # url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/designmodo.jpg
       - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
+        # url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/themeforest.jpg
       - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
+        # url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/creative-market.jpg
 
 team:
     title: "Resume"
     text: "My Current Resume Ready for Download."
-    subtext: References Also Available Upon Request
+    subtext: Full CV Available Above, References Available Upon Request
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
+      - name: "Email"
+        role: "Duffey.a@northeastern.edu"
         image: assets/img/team/1.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          # - url: https://linkedin.com
+          #   icon: fab fa-linkedin-in
+      - name: "Adrian Duffey"
+        role: "Mechanical Engineer"
         image: assets/img/team/2.jpg
         social:
           - url: https://adrianduffey.github.io/resume.pdf
             icon: fas fa-file
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          # - url: https://linkedin.com
+          #   icon: fab fa-linkedin-in
 
-      - name: "Diana Perterson"
-        role: "Lead Developer"
+      - name: "Phone"
+        role: "(774) 312-1422"
         image: assets/img/team/3.jpg
         social:
-          - url: https://twitter.com
-            icon: fas fa-file
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+          # - url: https://twitter.com
+          #   icon: fas fa-file
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          # - url: https://linkedin.com
+          #   icon: fab fa-linkedin-in
 
 
 # contact:
@@ -124,18 +124,18 @@ team:
 #     section: contact
 
 footer:
-    legal: "Privacy Policy"
+    # legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+      # - url: https://twitter.com
+      #   icon: "fab fa-twitter"
+      # - url: https://facebook.com
+      #   icon: "fab fa-facebook-f"
+      # - url: https://linkedin.com
+      #   icon: "fab fa-linkedin-in"
+      # - url: https://github.com/raviriley/agency-jekyll-theme
+      #   icon: "fab fa-github"
+      # - url: https://instagram.com
+      #   icon: "fab fa-instagram"
 
 
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}
