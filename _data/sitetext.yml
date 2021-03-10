@@ -4,57 +4,57 @@ header:
     button: Tell Me More
     buttonlink: "#services" # "#{section}" or "URL/page link"
 
-services:
-    title: "Services"
-    text: "Lorem ipsum"
-    section: services
-    list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop       
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+# services:
+#     title: "Services"
+#     text: "Lorem ipsum"
+#     section: services
+#     list:
+#       - title: "E-Commerce"
+#         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+#       - title: "Responsive Design"
+#         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#         icon: fas fa-laptop
+#       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+#         desc: "Your description here, full **Markdown** support"
+#         icon: fab fa-markdown
 
 portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Take a look at what I've been working on!"
     section: portfolio
-    
+
 
 timeline:
-    title: "About" 
-    text: "Lorem ipsum timeline"
+    title: "About"
+    text: "My Journey as a Mechanical Engineer"
     section: timeline
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Enrolled at Northeastern"
+        year: "2018"
+        desc: "Pursuit of a Bacholer of Science Degree in Mechanical Engineering, as Well as a General Music Minor"
         image: assets/img/timeline/1.jpg
-        alt: 
+        alt:
         align: left
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Seventh Sense Biosystems"
+        year: "July 2019 - December 2019"
+        desc: "R&D Engineering to help lift the second generational product off the ground. Seventh Sense Biosystems is a medical device start up in Medford Massachusetts working on the future of blood tests. "
         image: assets/img/timeline/2.jpg
-        alt: 
+        alt:
         align: right
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      - title: "Abcam FirePlex"
+        year: "July 2020 - December 2020"
+        desc: "Manufacturing Engineer designing prototypes for line enhancement. Abcam FirePlex is a manufacturer of hydrogel particles for various drug assays."
         image: assets/img/timeline/3.jpg
-        alt: image alt text
-        #align: #default is left       
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt: 
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+        alt:
+        #align: #default is left
+      # - title: "Title"
+      #   year: "2009-2011"
+      #   desc: "Your description here, **Markdown** is fully supported."
+      #   image: assets/img/timeline/4.jpg
+      #   alt:
+      #   align: right
+    end: "Be Part <br> of my <br> Next Step!"
 
 about:
     title: "About Us"
@@ -78,11 +78,11 @@ clients:
       - title: "Creative Market"
         url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/creative-market.jpg
-    
+
 team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "Resume"
+    text: "My Current Resume Ready for Download."
+    subtext: References Also Available Upon Request
     section: team
     people:
       - name: "Kay Garland"
@@ -99,33 +99,35 @@ team:
         role: "Lead Marketer"
         image: assets/img/team/2.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
+          - url: https://adrianduffey.github.io/resume.pdf
+            icon: fas fa-file
           - url: https://facebook.com
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
+
       - name: "Diana Perterson"
         role: "Lead Developer"
         image: assets/img/team/3.jpg
         social:
           - url: https://twitter.com
-            icon: fab fa-twitter
+            icon: fas fa-file
           - url: https://facebook.com
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-          
-contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
-    section: contact
-    
+
+
+# contact:
+#     title: "Contact Us"
+#     text: "Lorem ipsum or call 123456789"
+#     section: contact
+
 footer:
     legal: "Privacy Policy"
     social:
       - url: https://twitter.com
-        icon: "fab fa-twitter"  
+        icon: "fab fa-twitter"
       - url: https://facebook.com
         icon: "fab fa-facebook-f"
       - url: https://linkedin.com
